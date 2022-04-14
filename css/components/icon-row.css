@@ -1,0 +1,26 @@
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 67px;
+}
+
+.icon-row__icon i {
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+
+/* 이해되지않는부분  */
+.icon-row__icon span {
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}

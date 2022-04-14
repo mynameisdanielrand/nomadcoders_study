@@ -40,10 +40,32 @@
     color: rgba(0, 0, 0, 0.4);
 }
 
-.user-component__subtitle {
+.user-component__box {
     font-size: 17px;
     margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-component__subtitle {
+    margin-top: 5px;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__box span {
+    font-weight: 600;
+    margin-top: 6px;
+    margin-left: 6px;
+    font-size: 10.5px;
+    color: tomato;
+    border: 1.8px solid tomato;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    opacity: 0.8;
 }
 
 .user-component__time {
