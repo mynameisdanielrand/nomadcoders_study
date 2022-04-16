@@ -12,20 +12,24 @@
 }
 
 .alt-header__column {
-    width: 140px;
+    width: 33%;
 }
 
 .alt-header__column:first-child {
     margin-right: auto;
 }
 
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
+
 .alt-header__column:last-child {
     margin-left: auto;
     font-size: 13px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .alt-header__column span:last-child {
-    padding-left: 20px;
+    margin-left: 20px;
 }
