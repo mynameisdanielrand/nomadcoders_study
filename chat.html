@@ -39,9 +39,9 @@
         </header>
 
         <main class="main-screen main-chat">
-            <div class="chat__timestamp">Tuesday, April 9, 2022</div>
+            <div class="chat__timestamp">Saturday, April 9, 2022</div>
 
-            <div class="message--row">
+            <div class="message-row">
                 <img src="./images/kakao-chats.png" alt="" />
                 <div class="message-row__content">
                     <span class="message__author">Kakao Talk</span>
@@ -51,7 +51,33 @@
                     </div>
                 </div>
             </div>
+
+            <div class="message-row message-row--own">
+                <div class="message-row__content">
+                    <div class="message__info">
+                        <span class="message__bubble">Hi, nice to meet you !</span>
+                        <span class="message__time">21:30</span>
+                    </div>
+                </div>
+            </div>
         </main>
+
+        <form class="reply" action="">
+            <div class="reply__column">
+                <i class="fa-regular fa-square-plus fa-lg"></i>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="Write a message..." />
+                <i class="fa-regular fa-face-grimace"></i>
+                <button>
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </div>
+        </form>
+
+        <div id="no-mobile">
+            <span>Your screen is too BIG</span>
+        </div>
 
         <script src="https://kit.fontawesome.com/4f8c2da61b.js" crossorigin="anonymous"></script>
     </body>

@@ -21,6 +21,22 @@
     margin-left: 25px;
 }
 
+@keyframes rotateCog {
+    0% {
+        transform: none;
+    }
+    43% {
+        transform: rotateZ(360deg);
+    }
+    100% {
+        transform: rotateZ(-360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: rotateCog 10s linear infinite;
+}
+
 .screen-header__notification {
     position: absolute;
     background-color: tomato;
